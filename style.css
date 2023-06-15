@@ -1,0 +1,32 @@
+body {
+  position: relative;
+  background-color: #bbb
+  ;
+  color: #FFF;
+  text-align: center;
+}
+
+.fade,
+.fade2 {
+  width: 160px;
+  margin: 20px;
+}
+
+.row {
+  position: relative;
+}
+
+#move {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+}
+
+.fade2 {
+  opacity: .2;
+  transition: opacity, 1s;
+}
+
+.fade2:hover {
+  opacity: 1;
+}
